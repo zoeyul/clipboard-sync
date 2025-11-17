@@ -2,6 +2,11 @@
 
 # dependencies
 node_modules/
+.pnpm-store/
+
+# lockfiles (keep only pnpm-lock.yaml)
+package-lock.json
+yarn.lock
 
 # Expo
 .expo/
